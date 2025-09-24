@@ -1,5 +1,7 @@
 import 'package:anime_app/core/utils/app_color.dart';
 import 'package:anime_app/core/utils/app_image.dart';
+import 'package:anime_app/core/utils/app_styles.dart';
+import 'package:anime_app/features/home/presentation/pages/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -27,10 +29,11 @@ class _NavBarPageState extends State<NavBarPage> {
 
   List<Widget> _buildScreens() {
     return const [
-      MainScreen(),
-      MainScreen(),
-      MainScreen(),
-      MainScreen(),
+      HomePage(),
+      HomePage(),
+      HomePage(),
+
+      SettingsScreen(),
       SettingsScreen(),
     ];
   }
@@ -39,13 +42,14 @@ class _NavBarPageState extends State<NavBarPage> {
     return [
       PersistentBottomNavBarItem(
         icon: SvgPicture.asset(AppImage.homeSelectedIcon),
-        textStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
+        textStyle: AppStyles.styleSemiBold16(context),
         inactiveIcon: SvgPicture.asset(AppImage.homeIcon),
         title: ("Home"),
         activeColorPrimary: AppColors.navBarSelected,
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
+        textStyle: AppStyles.styleSemiBold16(context),
         icon: SvgPicture.asset(AppImage.librarySelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.libraryIcon),
         title: ("Library"),
@@ -53,6 +57,7 @@ class _NavBarPageState extends State<NavBarPage> {
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
+        textStyle: AppStyles.styleSemiBold16(context),
         icon: SvgPicture.asset(AppImage.searchSelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.searchIcon),
         title: ("Search"),
@@ -60,6 +65,7 @@ class _NavBarPageState extends State<NavBarPage> {
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
+        textStyle: AppStyles.styleSemiBold16(context),
         icon: SvgPicture.asset(AppImage.internetSelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.internetIcon),
         title: ("Internet"),
@@ -67,6 +73,7 @@ class _NavBarPageState extends State<NavBarPage> {
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
+        textStyle: AppStyles.styleSemiBold16(context),
         icon: SvgPicture.asset(AppImage.settingSelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.settingIcon),
         activeColorSecondary: AppColors.whiteColor,
@@ -97,18 +104,6 @@ class _NavBarPageState extends State<NavBarPage> {
 }
 
 // ---------------------- Screens ----------------------
-
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text("Home")),
-      body: const Center(child: Text("This is the Home Screen")),
-    );
-  }
-}
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});

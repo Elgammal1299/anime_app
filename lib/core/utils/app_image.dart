@@ -9,4 +9,6 @@ class AppImage {
   static const libraryIcon = "assets/images/library.svg";
   static const searchIcon = "assets/images/search.svg";
   static const settingIcon = "assets/images/setting.svg";
+  static const starIcon = "assets/images/Star.svg";
+  static const cartoon1Image = "assets/images/cartoon1.png";
 }
