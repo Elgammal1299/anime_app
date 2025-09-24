@@ -21,4 +21,6 @@ class AppImage {
   static const detailsImage = "assets/images/details_image.jpg";
   static const vectorImage = "assets/images/Vector.svg";
   static const groupImage = "assets/images/Group.png";
+  static const rocketBoyImage = "assets/images/Rocket Boy.png";
+  static const movieImage = "assets/images/movie.png";
 }
