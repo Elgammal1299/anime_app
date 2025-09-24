@@ -21,6 +21,15 @@ abstract class AppStyles {
     );
   }
 
+  static TextStyle styleBoldBlack16(context) {
+    return TextStyle(
+      color: AppColors.textColor,
+      fontSize: getResponsiveFontSize(context, fontSize: 16),
+      fontFamily: 'Raleway',
+      fontWeight: FontWeight.w700,
+    );
+  }
+
   static TextStyle styleBold16(context) {
     return TextStyle(
       color: AppColors.navBarSelected,
@@ -86,9 +95,9 @@ abstract class AppStyles {
 
   static TextStyle styleRegular14(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFFAAAAAA),
+      color: AppColors.greyColor,
       fontSize: getResponsiveFontSize(context, fontSize: 14),
-      fontFamily: 'Montserrat',
+      fontFamily: 'Raleway',
       fontWeight: FontWeight.w400,
     );
   }
