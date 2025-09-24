@@ -32,7 +32,7 @@ abstract class AppStyles {
 
   static TextStyle styleBold16(context) {
     return TextStyle(
-      color: AppColors.navBarSelected,
+      color: AppColors.primaryColor,
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontFamily: 'Raleway',
       fontWeight: FontWeight.w700,

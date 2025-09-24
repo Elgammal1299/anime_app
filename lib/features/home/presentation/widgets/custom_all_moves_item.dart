@@ -1,4 +1,3 @@
-
 import 'package:anime_app/core/utils/app_color.dart';
 import 'package:anime_app/core/utils/app_styles.dart';
 import 'package:anime_app/features/home/data/models/anime_move_model.dart';
@@ -46,7 +45,7 @@ class CustomAllMovesItem extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  Icon(Icons.star, color: AppColors.navBarSelected, size: 16),
+                  Icon(Icons.star, color: AppColors.primaryColor, size: 16),
                   Text(
                     anime.rating.toString(),
                     style: AppStyles.styleRegular14(context),

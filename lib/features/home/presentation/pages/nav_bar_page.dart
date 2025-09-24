@@ -45,7 +45,7 @@ class _NavBarPageState extends State<NavBarPage> {
         textStyle: AppStyles.styleSemiBold16(context),
         inactiveIcon: SvgPicture.asset(AppImage.homeIcon),
         title: ("Home"),
-        activeColorPrimary: AppColors.navBarSelected,
+        activeColorPrimary: AppColors.primaryColor,
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
@@ -53,7 +53,7 @@ class _NavBarPageState extends State<NavBarPage> {
         icon: SvgPicture.asset(AppImage.librarySelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.libraryIcon),
         title: ("Library"),
-        activeColorPrimary: AppColors.navBarSelected,
+        activeColorPrimary: AppColors.primaryColor,
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
@@ -61,7 +61,7 @@ class _NavBarPageState extends State<NavBarPage> {
         icon: SvgPicture.asset(AppImage.searchSelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.searchIcon),
         title: ("Search"),
-        activeColorPrimary: AppColors.navBarSelected,
+        activeColorPrimary: AppColors.primaryColor,
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
@@ -69,7 +69,7 @@ class _NavBarPageState extends State<NavBarPage> {
         icon: SvgPicture.asset(AppImage.internetSelectedIcon),
         inactiveIcon: SvgPicture.asset(AppImage.internetIcon),
         title: ("Internet"),
-        activeColorPrimary: AppColors.navBarSelected,
+        activeColorPrimary: AppColors.primaryColor,
         activeColorSecondary: AppColors.whiteColor,
       ),
       PersistentBottomNavBarItem(
@@ -78,7 +78,7 @@ class _NavBarPageState extends State<NavBarPage> {
         inactiveIcon: SvgPicture.asset(AppImage.settingIcon),
         activeColorSecondary: AppColors.whiteColor,
         title: ("Settings"),
-        activeColorPrimary: AppColors.navBarSelected,
+        activeColorPrimary: AppColors.primaryColor,
       ),
     ];
   }

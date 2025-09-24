@@ -63,7 +63,7 @@ class _CustomTabBarViewState extends State<CustomTabBarView>
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               decoration: BoxDecoration(
                 color: selectedIndex == index
-                    ? AppColors.navBarSelected
+                    ? AppColors.primaryColor
                     : AppColors.whiteColor,
                 borderRadius: BorderRadius.circular(20),
               ),

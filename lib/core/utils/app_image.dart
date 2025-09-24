@@ -18,4 +18,7 @@ class AppImage {
   static const gonFreecssImage = "assets/images/Gon Freecss.png";
   static const luffyImage = "assets/images/Luffy.jpg";
   static const narutoUzumakiImage = "assets/images/Naruto Uzumaki.png";
+  static const detailsImage = "assets/images/details_image.jpg";
+  static const vectorImage = "assets/images/Vector.svg";
+  static const groupImage = "assets/images/Group.png";
 }
