@@ -2,8 +2,10 @@ import 'package:anime_app/core/utils/app_color.dart';
 import 'package:anime_app/core/utils/app_image.dart';
 import 'package:anime_app/core/utils/app_styles.dart';
 import 'package:anime_app/core/widget/custom_elevated_button.dart';
+import 'package:anime_app/features/upgrade_plan/presentation/pages/up_grade_plan_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
 class DetailsPage extends StatelessWidget {
   const DetailsPage({super.key});
@@ -178,7 +180,15 @@ class DetailsPage extends StatelessWidget {
                     size: 20,
                   ),
                   borderRadius: 40,
-                  onPressed: () {},
+                  onPressed: () {
+                    PersistentNavBarNavigator.pushNewScreen(
+                      context,
+                      screen: const UpGradePlanPage(),
+                      withNavBar: false,
+                      pageTransitionAnimation:
+                          PageTransitionAnimation.cupertino,
+                    );
+                  },
                 ),
               ),
             ],

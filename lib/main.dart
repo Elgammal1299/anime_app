@@ -9,15 +9,16 @@ void main() {
 class AnimeApp extends StatelessWidget {
   const AnimeApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Anime App',
       debugShowCheckedModeBanner: false,
-     
+
       initialRoute: AppRoutes.nvBarPageRouter,
       onGenerateRoute: AppRouter.generateRoute,
     );
   }
 }
+
+

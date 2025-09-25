@@ -2,19 +2,10 @@ import 'package:anime_app/core/utils/app_color.dart';
 import 'package:anime_app/core/utils/app_image.dart';
 import 'package:anime_app/core/utils/app_styles.dart';
 import 'package:anime_app/features/home/presentation/pages/home_page.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
-// class NavBarPage extends StatelessWidget {
-//   const NavBarPage({super.key});
 
-//   @override
-//   Widget build(BuildContext context) {
-
-//     return
-//   }
-// }
 class NavBarPage extends StatefulWidget {
   const NavBarPage({super.key});
 
