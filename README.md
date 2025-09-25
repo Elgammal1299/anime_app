@@ -1,12 +1,13 @@
 # 🎌 Anime App
 
 https://github.com/user-attachments/assets/bbab3e1f-3ab5-4aee-b757-6aca2e38db3b
+
 ![WhatsApp Image 2025-09-25 at 14 47 05_49e287a3](https://github.com/user-attachments/assets/3094c529-14d9-4b61-8f10-f4a7a0265d15)
+
 ![WhatsApp Image 2025-09-25 at 14 47 05_62fafe36](https://github.com/user-attachments/assets/a43a9a34-383e-4e41-85d4-b64858dea98f)
+
 ![WhatsApp Image 2025-09-25 at 14 47 05_468bff23](https://github.com/user-attachments/assets/891b5fbf-6567-4ebc-bb50-d8f1f023d2e5)
 
-
-https://github.com/user-attachments/assets/8c66292d-6742-4751-9e1c-d14e3f030f77
 
 
 A beautiful and modern Flutter application for anime enthusiasts to discover, browse, and explore their favorite anime series and characters.
